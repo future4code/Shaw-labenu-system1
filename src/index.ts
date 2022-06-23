@@ -1,6 +1,12 @@
 import app from "./app"
-import { Request, Response } from "express"
+import createStudant from "./endpoints/Studants/createStudant"
+import getStudantByName from "./endpoints/Studants/getStudant"
+import updateStudant from "./endpoints/Studants/updateStudant"
 
-app.get('/', (req: Request, res: Response)=> {
-    res.send("foi")
-})
+
+
+
+app.post('/studant', createStudant)
+app.get('/studant/:nome', getStudantByName)
+app.put('/studant/:id', updateStudant)
+
