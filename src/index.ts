@@ -1,11 +1,21 @@
 import app from "./app"
-
-import { CreateClass } from "./endpoints/CreateClass"
-import { GetClass } from "./endpoints/GetClass"
-import { ChangeModule } from "./endpoints/ChangeModule"
 import { CreateDocentes } from "./endpoints/Docentes/CreateDocentes"
 import { GetAllDocents } from "./endpoints/Docentes/GetAllDocentes"
 import { ChangeDocentes } from "./endpoints/Docentes/ChangeDocentes"
+import createStudant from "./endpoints/Studants/createStudant"
+import getStudantByName from "./endpoints/Studants/getStudant"
+import updateStudant from "./endpoints/Studants/updateStudant"
+import { CreateClass } from "./endpoints/Class/CreateClass"
+import { GetClass } from "./endpoints/Class/GetClass"
+import { ChangeModule } from "./endpoints/Class/ChangeModule"
+import { CreateClass } from "./endpoints/CreateClass"
+import { GetClass } from "./endpoints/GetClass"
+import { ChangeModule } from "./endpoints/ChangeModule"
+
+
+app.post('/studant', createStudant)
+app.get('/studant/:nome', getStudantByName)
+app.put('/studant/:id', updateStudant)
 
 //--------------------------------------------------Criar Turma-------------------------------------------------------------------------------------------------------
 

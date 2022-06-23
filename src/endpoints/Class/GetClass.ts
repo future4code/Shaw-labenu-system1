@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import connection from "../data/connetion";
+import connection from "../../data/connetion";
 
 
 export const GetClass = async (req: Request, res: Response):Promise<any> =>{
