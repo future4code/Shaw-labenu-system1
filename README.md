@@ -11,9 +11,9 @@ https://labenu-system-labenu.herokuapp.com/studant
 
 
 ## Desenvolvedores/Alunos:
-Pablo Andrade de Lima Silva
+Pablo Andrade de Lima Silva,
 <br/>
-Yasmin Da Conceição Silva
+Yasmin Da Conceição Silva,
 <br/>
 Natã Lucas Silva
 
