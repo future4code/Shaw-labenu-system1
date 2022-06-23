@@ -5,10 +5,6 @@
 Postman:
 https://documenter.getpostman.com/view/20349301/UzBqo5R8
 <br/>
-Heroku:
-https://labenu-system-labenu.herokuapp.com/studant
-
-
 
 ## Desenvolvedores/Alunos:
 Pablo Andrade de Lima Silva
