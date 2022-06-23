@@ -1,33 +1,36 @@
 ## LabenuSystem:
 
-Você estuda na Labenu_ há tanto tempo que já parecem anos, não é? Então, hoje, vamos pedir para criar um sistema que represente o básico da nossa organização. 
 
-Ele deve possuir, ao menos, as 3 entidades importantes:
+## Links:
+Postman:
+https://documenter.getpostman.com/view/20349301/UzBqo5R8
+Heroku:
+https://labenu-system-labenu.herokuapp.com/studant
 
-1. Estudantes 
 
-    Representa estudantes da nossa instituição. Eles devem possuir: id, nome, email, data de nascimento e os principais hobbies dele. 
 
-2. Docente
+## Desenvolvedores/Alunos:
+Pablo Andrade de Lima Silva
+Yasmin Da Conceição Silva
+Natã Lucas Silva
 
-    Representa docentes da nossa instituição. Eles devem possuir: id, nome, email, data de nascimento e todas as especialidades dele. Há 7 especialidades: React, Redux, CSS, Testes, Typescript, Programação Orientada a Objetos e Backend
 
-3. Turma
+## Elementos Feitos:
 
-    Toda turma é composta das seguintes características: id, nome, data de início, data de término, lista de professores responsáveis, uma lista de alunos e módulo atual em que a turma está.
+**→ Criar turma**
 
-    O módulo pode assumir os valores de 1 a 7 ou `undefined`, indicando que as aulas dessa turma ainda não começaram. Para esse exercício, vamos considerar que existam dois tipos de turma: integral ou noturna. Há uma restrição para o nome das turmas noturnas: tem que terminar com `-na-night`.
+**→ Buscar turmas ativas**
 
-As funcionalidades básicas são:
+**→ Mudar turma de módulo**
 
-→ Criar estudante;
+**→ Criar estudante**
 
-→ Criar docente;
+**→ Buscar estudantes através do nome**
 
-→ Criar turma;
+**→ Mudar estudante de turma**
 
-→ Adicionar estudante na turma;
+**→ Criar docente**
 
-→ Adicionar docente na turma;
+**→ Buscar todas as pessoas docentes**
 
-→ Pegar a idade de algum estudante a partir do id
+**→ Mudar docente de turma**
