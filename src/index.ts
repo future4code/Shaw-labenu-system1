@@ -1,6 +1,19 @@
 import app from "./app"
-import { Request, Response } from "express"
+import { CreateClass } from "./endpoints/CreateClass"
+import { GetClass } from "./endpoints/GetClass"
+import { ChangeModule } from "./endpoints/ChangeModule"
 
-app.get('/', (req: Request, res: Response)=> {
-    res.send("foi")
-})
+
+//--------------------------------------------------Criar Turma--------------------------------------------------------------------------------------------
+
+app.post("/createClass", CreateClass)
+
+
+//--------------------------------------------------Buscar turmas ativas-----------------------------------------------------------------------------------
+
+app.get("/getClass", GetClass)
+
+
+//--------------------------------------------------Mudar turma de Módulo-------------------------------------------------------------------------------------------------------
+
+app.put("/changeClass/:id", ChangeModule)
