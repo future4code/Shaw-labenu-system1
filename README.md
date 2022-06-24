@@ -9,7 +9,7 @@ https://documenter.getpostman.com/view/20349301/UzBqo5R8
 ## Desenvolvedores/Alunos:
 Pablo Andrade de Lima Silva
 <br/>
-Yasmin Da Conceição Silva
+Yasmin Silva da Conceição
 <br/>
 Natã Lucas Silva
 
